@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="tribeca">Tribeca</string>
+    <string name="soho">Soho</string>
+    <string name="little_italy">LittleItaly</string>
+    <string name="china_town">Chinatown</string>
+    <!-- Soho -->
+    <string name="balthazar">Balthazar</string>
+    <string name="balthazar_address">80 Spring St\nNew York\n10012</string>
+    <string name="balthazar_contact">http://balthazarny.com/</string>
+    <string name="the_dutch">The Dutch</string>
+    <string name="the_dutch_address">131 Sullivan St\nNew York\n10012</string>
+    <string name="the_dutch_contact">http://thedutchnyc.com/</string>
+    <string name="the_dominique_ansel">Dominique Ansel Bakery</string>
+    <string name="the_dominique_ansel_address">189 Spring St\nNew York\n10012</string>
+    <string name="the_dominique_ansel_contact">http://dominiqueansel.com/</string>
+    <!-- Little Italy -->
+    <string name="le_coucou">Le Coucou</string>
+    <string name="le_coucou_address">138 Lafayette St\nNew York\n10013</string>
+    <string name="le_coucou_contract">http://lecoucou.com/</string>
+    <string name="emilio_ballato">Emilio\'s Ballato</string>
+    <string name="emilio_ballato_address">55 E Houston St\nNew York, NY\n10012</string>
+    <string name="emilio_ballato_contact">(212) 274–8881</string>
+    <string name="parm">Parm</string>
+    <string name="parm_address">248 Mulberry St\nNew York, NY\n10012</string>
+    <string name="parm_contact">(212) 993–7189</string>
+    <!-- Chinatown -->
+    <string name="green_village">Green Garden Village</string>
+    <string name="green_village_address">216 Grand St\nNew York, NY\n10013</string>
+    <string name="green_village_contact">(646) 912–9136</string>
+    <string name="yi">Yi Ji Shi Mo</string>
+    <string name="yi_adress">88 Elizabeth St\nNew York, NY\n10013</string>
+    <string name="yi_contact">(646) 233–6311</string>
+    <string name="wah">Wah Fung Fast Food</string>
+    <string name="wah_address">79 Chrystie St\nNew York, NY\n10002</string>
+    <string name="wah_contact">(212) 925–5175</string>
+    <!-- Tribeca -->
+    <string name="china_blue">China Blue</string>
+    <string name="china_blue_address">135 Watts St\nNew York, NY\n10013</string>
+    <string name="china_blue_contact">(212) 431–0111</string>
+    <string name="the_greek">The Greek</string>
+    <string name="the_greek_adress">458 Greenwich St\nNew York, NY\n10013</string>
+    <string name="the_greek_contact">(646) 476–3941</string>
+    <string name="sushi">Sushi Azabu</string>
+    <string name="sushi_address">428 Greenwich St\nNew York, NY\n10013</string>
+    <string name="sushi_contact">(212) 274–0428</string>
+</resources>

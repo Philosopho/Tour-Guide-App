@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data>
+        <variable
+            name="area"
+            type="com.krinotech.tourguideapp.Area" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        >
+
+        <ImageView
+            android:id="@+id/area_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@{area.picture}"
+            tools:src="@tools:sample/backgrounds/scenic"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/area_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/nameTextSize"
+            android:layout_margin="16dp"
+            android:textColor="@color/textColor"
+            android:text="@{area.name}"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/area_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/subTextSize"
+            android:layout_margin="16dp"
+            android:text="@{area.address}"
+            android:textColor="@color/textColor"
+            tools:text="Contact ST Boulevard"
+            />
+
+        <TextView
+            android:id="@+id/area_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/subTextSize"
+            android:layout_margin="16dp"
+            android:text="@{area.contactInfo}"
+            tools:text="555-555-5555" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"
+            >
+        </View>
+    </LinearLayout>
+</layout>
