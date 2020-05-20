@@ -15,17 +15,18 @@ import com.krinotech.tourguideapp.databinding.AreaListBinding;
 
 import java.util.List;
 
-public class BaseFragment extends Fragment {
-    private List<Area> areas;
+public abstract class BaseFragment extends Fragment {
     private AreaListBinding binding;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater, R.layout.area_list, container, false);
-        setUpAdapter(areas);
+        setUpAdapter(getAreas());
         return binding.getRoot();
     }
+
+    public abstract List<Area> getAreas();
 
     private void setUpAdapter(List<Area> areas) {
         AreaAdapter areaAdapter = new AreaAdapter(areas);
@@ -36,9 +37,5 @@ public class BaseFragment extends Fragment {
         binding.rvList.setHasFixedSize(true);
         binding.rvList.setLayoutManager(linearLayoutManager);
         binding.rvList.setAdapter(areaAdapter);
-    }
-
-    public void setAreas(List<Area> areas) {
-        this.areas = areas;
     }
 }

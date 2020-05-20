@@ -8,14 +8,14 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import java.util.List;
+
 public class TribecaFragment extends BaseFragment {
 
     public TribecaFragment() { }
 
-    @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        setAreas(AreaProvider.getTribecaAreas(getResources()));
-        return super.onCreateView(inflater, container, savedInstanceState);
+    public List<Area> getAreas() {
+        return AreaProvider.getTribecaAreas(getResources());
     }
 }

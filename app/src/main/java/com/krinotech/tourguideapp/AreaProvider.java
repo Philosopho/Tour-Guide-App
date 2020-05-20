@@ -14,17 +14,17 @@ public class AreaProvider {
                 resources.getString(R.string.balthazar),
                 resources.getString(R.string.balthazar_address),
                 resources.getString(R.string.balthazar_contact),
-                R.mipmap.ic_balthazar_foreground));
+                R.drawable.balthazar_));
         areas.add(createArea(
                 resources.getString(R.string.the_dutch),
                 resources.getString(R.string.the_dutch_address),
                 resources.getString(R.string.the_dutch_contact),
-                R.mipmap.ic_dutch_foreground));
+                R.drawable.the_dutch_));
         areas.add(createArea(
                 resources.getString(R.string.the_dominique_ansel),
                 resources.getString(R.string.the_dominique_ansel_address),
                 resources.getString(R.string.the_dominique_ansel_contact),
-                R.mipmap.ic_dominic_foreground));
+                R.drawable.dominic_ansel_));
         return areas;
     }
 

@@ -10,15 +10,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import java.util.List;
+
 public class LittleItalyFragment extends BaseFragment {
 
     public LittleItalyFragment() {
     }
 
-    @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        setAreas(AreaProvider.getLittleItalyAreas(getResources()));
-        return super.onCreateView(inflater, container, savedInstanceState);
+    public List<Area> getAreas() {
+        return AreaProvider.getLittleItalyAreas(getResources());
     }
 }
